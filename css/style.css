@@ -1,0 +1,12 @@
+/* Position the close button in the top right corner of the modal */
+
+body {
+    background-color: bisque;
+}
+
+.close-btn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 9999;
+}
